@@ -1,4 +1,4 @@
-# ns_w3Funcs
+# w3Funcs
 Revise functions through w3 schools
 "Tutorials to work through: Definitions  Parameters Invocation Call Apply Closures"
 JS Function 
@@ -8,4 +8,4 @@ JS Function
 4 Function Call
 5 Function Apply
 6 Function Closures
-"Create suffix A files and attempt to reproduce functions"
+"Create suffix A files and attempt to reproduce functions Complete function, function expressions, to String, Arrow"

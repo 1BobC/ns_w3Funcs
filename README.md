@@ -8,4 +8,5 @@ JS Function
 4 Function Call
 5 Function Apply
 6 Function Closures
-"Create suffix A files and attempt to reproduce functions Complete function, function expressions, to String, Arrow"
+"Create suffix A files and attempt to reproduce functions. Complete function, function expressions, to String, Arrow."
+"Practised code for rock paper scissors. Completed Function Parameters 4 exercises"

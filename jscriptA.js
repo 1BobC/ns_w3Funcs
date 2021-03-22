@@ -98,41 +98,49 @@ const addUp= function(){
     document.getElementById("mine4").innerHTML= "the arguments object mine 4 to sum all input values = " + addUp(1, 123, 500, 8504, 115, 44, 88);
 
 //w3 schools JavaScript Function Definitions
+//Basic function
+// function k(a, b){
+//     return a - b;
+// }
+//     console.log(k(125, 2));
+//     document.getElementById("bobs").innerHTML= "Basic function a - b = " + k(125, 2);
+
+
 //function expression1 
 // const a= function(b, c){
 //     return b / c;
 // }
 // console.log(a(10, 2));
-// document.getElementById("bob").innerHTML= a(10, 2);
+// document.getElementById("bob").innerHTML= "Function expression 1, b / c = " + a(10, 2);
 
 // //function expression 2
 // const phrase= function(d, e){
 //     return d + e;
 // }
 // console.log(phrase("Hello, ", "World!"));
-// document.getElementById("bob1").innerHTML= phrase("Hello, ", "World!")
+// document.getElementById("bob1").innerHTML= "Function expression 2, phrase is: " + phrase("Hello, ", "World!");
 
 // //function expression 3
 // const pchoice= function(rock){
 //     return "rock";
 // }
 // console.log(pchoice());
-// document.getElementById("bob2").innerHTML= pchoice()
+// document.getElementById("bob2").innerHTML= "Function expression 3, the player's choice is: " + pchoice();
  
 // //function expression 4
 // const cchoice= function(paper){
 //     return "paper"
 // }
 // console.log(cchoice());
-// document.getElementById("bob3").innerHTML= (cchoice());
+// document.getElementById("bob3").innerHTML=  "Function expression 4 the computer's choice is: " + cchoice();
 
 //  //function expression 5
 //  const game= function(winner){
 //     const x= pchoice();
 //     const y= cchoice();
 //     if ((x== "rock") && (y== "paper")){
-//     return "computer is the winner";
+//     return "The computer is the winner";
 //     }else{return "void game"}
 // }
 // console.log(game());
-// document.getElementById("bob4").innerHTML= game();
+// document.getElementById("bob4").innerHTML= "Function expression 5. " + game();

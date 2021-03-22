@@ -11,3 +11,4 @@ JS Function
 "Create suffix A files and attempt to reproduce functions. Complete function, function expressions, to String, Arrow."
 "Practised code for rock paper scissors. Completed Function Parameters 4 exercises"
 "Added four Function Parameter exercises - mine - and placed html on one line  Next Function Invocation"
+"Add grid and styling to Functions, FDefinitions, FParameters, FInvocation, FCall, FApply, Closure "

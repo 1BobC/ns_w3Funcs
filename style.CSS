@@ -1,4 +1,4 @@
-h1{
+/* h1{
     text-align: center;
     color: darkblue;
     padding: 20px;
@@ -13,4 +13,56 @@ p{
 }
 .function{
     color: #2525c2;
+} */
+
+body{
+    color: #7a3d3d;
+    font-family: 'Times Roman';
+    text-align: center;
+    }
+#content{
+    display: grid;
+    /* #9 grid areas code */
+    grid-template-columns: repeat(4, 1fr); 
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+    "header header header header"
+    "defs defs pars pars"
+    "invn invn call call"
+    "appl appl clos clos"
+    "footer footer footer footer";
+    max-width: 1040px;
+    margin: 0 auto;
+    gap: 10px;
+    /* position: relative;*/ /*code to help p positions in #7 */
+    }
+    
+#content > *{ 
+    background: #f7e7cb;
+    padding: 15px;
+    }
+    
+header{
+    grid-area: header;
+}
+defs{
+    grid-area: defs;
+}
+pars{
+    grid-area: pars;
+}
+invn{
+    grid-area: invn;
+}
+call{
+    grid-area: call;
+}
+appl{
+    grid-area: appl;
+}
+clos{
+    grid-area: clos;
+}
+footer{
+    grid-area: footer;
 }

@@ -13,3 +13,4 @@ JS Function
 "Added four Function Parameter exercises - mine - and placed html on one line  Next Function Invocation"
 "Add grid and styling to Functions, FDefinitions, FParameters, FInvocation, FCall, FApply, Closure" 
 "Complete Call and Apply with Closure yet to complete"
+"

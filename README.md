@@ -13,4 +13,7 @@ JS Function
 "Added four Function Parameter exercises - mine - and placed html on one line  Next Function Invocation"
 "Add grid and styling to Functions, FDefinitions, FParameters, FInvocation, FCall, FApply, Closure" 
 "Complete Call and Apply with Closure yet to complete"
-"
+"Complete all w3 schools Javascript function exercises Next add styling"
+Must complete reorder in jscriptA to same order as w3 schools Functions!!
+Complete re-order in jscriptA and styling Only indexA close bob1 and bob 2 not working
+"Complete grid styling to indexA files and debug non unique ids in function closure exercises Next create responsive styling" 

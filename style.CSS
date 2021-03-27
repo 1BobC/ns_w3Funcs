@@ -1,47 +1,28 @@
-/* h1{
-    text-align: center;
-    color: darkblue;
-    padding: 20px;
-    background-color: palegoldenrod;
-}
-h3{
-    text-align: center;
-}
-p{
-    text-align: center;
-    color: #ac1271;
-}
-.function{
-    color: #2525c2;
-} */
-
+/*Grid style */
 body{
-    color: #7a3d3d;
-    font-family: 'Times Roman';
+    color: goldenrod;
+    font-family: sans-serif;
     text-align: center;
-    }
+}
 #content{
     display: grid;
-    /* #9 grid areas code */
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(100px, auto);
-    grid-template-areas:
+    grid-template-areas: 
     "header header header header"
     "defs defs pars pars"
     "invn invn call call"
     "appl appl clos clos"
     "footer footer footer footer";
-    max-width: 1040px;
-    margin: 0 auto;
+    max-width: 1350px;
+    margin: 10px;
     gap: 10px;
-    /* position: relative;*/ /*code to help p positions in #7 */
-    }
-    
-#content > *{ 
-    background: #f7e7cb;
+    /*position: relative; if required*/
+}
+#content >*{
+    background-color: honeydew;
     padding: 15px;
-    }
-    
+}
 header{
     grid-area: header;
 }
@@ -66,3 +47,9 @@ clos{
 footer{
     grid-area: footer;
 }
+
+
+
+
+
+

@@ -7,86 +7,96 @@
     <title>Attempt to reproduce functions</title>
 </head>
 <body>
-    <h1>My attempts to reproduce functions w3 schools</h1>
-
-    <h3>w3 schools JavaScript Function Closures</h3>
-    <p>JavaScript variables can belong to the local or global scope.</p>
-    <p>Global variables can be made local (private) with closures.</p>
-    <h4>Global variables and local variables</h4>
-    <p id="bob1">Function accessing inside or local variable...<button type= "button" onclick= "oneFunc()">Click ME!</button></p> 
-    <p id="bob2">Function accessing outside or global variable...<button type= "button" onclick="twoFunc()">Click ME!</button></p>
-    <p>Variables created without a declaration keyword (var, let, or const) are always global, even if they are created inside a function.</p>
-    <h4>Variable Lifetime</h4>
-    <p>Local variables are created when the function is invoked, and deleted when the function is finished.Global variables live until the page is discarded</p>
-    <h4>A Counter Dilemma</h4>
-    <p id= "bob3">1 Counting with a global variable</p>
-    <p id= "bob4">2 Counting with a global and local variable</p>
-    <p id= "bob5">3 Counting with a local variable and function return...<button type= "button" onclick="threeFunc()">Click ME!</button>...0...</p>
-    <h4>JavaScript Nested Functions</h4>
-    <p>In this example, the inner function plus4() has access to the counter4 variable in the parent function</p>
-    <p id= "bob6">4 Counting with nested functions...</p>
-    <p>We need to reach the plus4() function from the outside. We also need to find a way to execute counter4 = 0 only once.</p>
-    <h4>JavaScript Closures</h4>
-    <p>5 Counting with closure and self invoking function...</p>
-    <button type= "button" onclick= "fourFunc()">Click and Count</button></p>
-    <p id= "bob7">...0</p>
-
-    <h3>w3 schools JavaScript Function Apply</h3>
-    <p>content available</p>
-    <p>The Difference Between call() and apply() is: apply() method will take arguments as an array.</p>
-    <h4>The apply() Method with Arguments as as Array</h4><p id= "bobR"></p>
-    <h4>Simulate a Max Method on Arrays.</h4>
-    <p id= "bobS">A one-liner to give the highest number in an array using (): </p>
-    <p id= "bobT">This variation to use apply and []:</p>
-    <p id= "bobU">This variation with Math.max and Math!</p>
-    <p id= "bobV">And yet another: </p>
-    <p id= "bobW">And one more for luck!: </p>
-    <h4>JavaScript Strict Mode - see Function Invocation below</h4>
-
-    <h3>w3 schools JavaScript Function Call. More about 'this', 'call' and 'apply'.</h3>
-    <p>content available</p>
-    <h4>All Functions are Methods</h4><p id= "bobO"></p>
-    <p>The this Keyword - see 'this' exercises in Function Invocation below </p>
-    <h4>The JavaScript call() (and apply?) Methods.</h4><p id="bobP"></p>
-    <h4>The call() Method with Arguments</h4><p id="bobQ"></p>
-
-     <h3>w3 schools JavaScript Function Invocation</h3>
-    <p>content available</p>
-    <p id= "bobE"></p> <p>Invoking a JavaScript Function as a Function</p>
-    <p>This function 'june' belongs, by default to the window object and therefore  can be invoked by window.june()</p>
-    <p id= "bobF"></p><!--<p>Using keyword 'this' with a global function</p>-->
-    <h4>More on 'this'. The JavaScript 'this' keyword refers to the object it belongs to and has different values depending on where it is used:</h4>
-    <p id= "bobG">'person' owns the fullName function</p>
-    <p id= "bobH">'this' alone refers to the window object:</p>
-    <p id= "bobJ">'this' in a Function (Default)</p>
-    <p id= "bobK">In strict mode, <b>this</b> is <b>undefined</b>, because strict mode does not allow default binding:</p>
-    <p><b>this</b> in an Event Handler: <button onclick="this.style.display='none'">Click to remove me!</button></p>
-    <p id= "bobL">this in Object Method Binding for Ben 1</p>
-    <p id= "bobM">this in Object Method Binding for Ben 2</p>
-    <p>use of call() and apply() in Explicit Function Binding. In the example below, when calling person1.fullName with person2 as argument, 'this' will refer to person2, even if it is a method of person1 !!!</p>
-    <p id= "bobN"></p>
-    <p>And all this 'this' ends Funcion Invocation, Yeah!<p> 
-
-    <h3>w3 schools JavaScript Function Parameters</h3>
-    <p>content available</p>
-    <p id= "bobA"></p><!--setting a default value 1-->
-    <p id= "bobB"></p><!--"setting a default value 2"-->
-    <p id= "mine1"></p><!--"setting a default value mine 1"-->
-    <p id= "mine2"></p><!--"setting a default value mine 2"-->
-    <p id= "bobC"></p><!--"the arguments object 1  to find the highest value in a list of numbers"-->
-    <p id= "bobD"></p><!--"the arguments object 2 to sum all input values"-->
-    <p id= "mine3"></p><!--the arguments object mine 3  to find the highest value in a list of numbers-->
-    <p id= "mine4"></p><!--the arguments object mine 4 to sum all input values-->
+    <div id= content>
+    <header><h1>Bobs attempts to reproduce functions w3 schools</h1></header>
     
-    <h3>w3 schools JavaScript Function Definitions</h3>
-    <p>content available</p>
-    <p id="bobs">Basic function</p>
-    <p id="bob">function expression 1</p>
-    <p id="bob1">function expression 2</p>
-    <p id="bob2">function expression 3</p>
-    <p id="bob3">function expression 4 tostring</p>
-    <p id="bob4">function expression 5 arrow function</p>
-
+    <defs><h3>w3 schools JavaScript Function Definitions</h3>
+        <!-- <p>content available</p> -->
+        <p class= "function"><p id="bobs"></p><!-- Basic function -->
+        <p class= "function"></p><p id="bob"></p><!--function expression 1-->
+        <p class= "function"></p><p id="bob1"></p><!--function expression 2-->
+        <p class= "function"></p><p id="bob2"></p><!--function expression 3-->
+        <p class= "function"></p><p id="bob3"></p><!--function expression 4 tostring-->
+        <p class= "function"></p><p id="bob4"></p><!--function expression 5 arrow function-->
+    </defs>
+    <params>
+        <h3>w3 schools JavaScript Function Parameters</h3>
+        <!-- <p>content available</p> -->
+        <p class= "function"></p><p id= "bobA"></p><!--setting a default value 1-->
+        <p class= "function"></p><p id= "bobB"></p><!--"setting a default value 2"-->
+        <p class= "function"></p><p id= "mine1"></p><!--"setting a default value mine 1"-->
+        <p class= "function"></p><p id= "mine2"></p><!--"setting a default value mine 2"-->
+        <p class= "function"></p><p id= "bobC"></p><!--"the arguments object 1  to find the highest value in a list of numbers"-->
+        <p class= "function"></p><p id= "bobD"></p><!--"the arguments object 2 to sum all input values"-->
+        <p class= "function"></p><p id= "mine3"></p><!--the arguments object mine 3  to find the highest value in a list of numbers-->
+        <p class= "function"></p><p id= "mine4"></p><!--the arguments object mine 4 to sum all input values-->
+    </params>
+    <invok>
+        <h3>w3 schools JavaScript Function Invocation</h3>
+       <!-- <p>content available</p> -->
+       <p class= "function"></p><p id= "bobE"></p> <p>Invoking a JavaScript Function as a Function</p>
+       <p class= "function"></p><p>This function 'june' belongs, by default to the window object and therefore  can be invoked by window.june()</p>
+       <p class= "function"></p><p id= "bobF"></p><!--<p>Using keyword 'this' with a global function</p>-->
+       <p class= "function"></p><h4>More on 'this'. The JavaScript 'this' keyword refers to the object it belongs to and has different values depending on where it is used:</h4>
+       <p class= "function"></p><p id= "bobG">'person' owns the fullName function</p>
+       <p class= "function"></p><p id= "bobH">'this' alone refers to the window object:</p>
+       <p class= "function"></p><p id= "bobJ">'this' in a Function (Default)</p>
+       <p class= "function"></p><p id= "bobK">In strict mode, <b>this</b> is <b>undefined</b>, because strict mode does not allow default binding:</p>
+       <p><b>this</b> in an Event Handler: <button onclick="this.style.display='none'">Click to remove me!</button></p>
+       <p class= "function"></p><p id= "bobL">this in Object Method Binding for Ben 1</p>
+       <p class= "function"></p><p id= "bobM">this in Object Method Binding for Ben 2</p>
+       <p class= "function"></p><p>use of call() and apply() in Explicit Function Binding. In the example below, when calling person1.fullName with person2 as argument, 'this' will refer to person2, even if it is a method of person1 !!!</p>
+       <p class= "function"></p><p id= "bobN"></p>
+       <p>And all this 'this' ends Funcion Invocation, Yeah!</p> 
+    </invok>
+    <call>
+        <h3>w3 schools JavaScript Function Call. More about 'this', 'call' and 'apply'.</h3>
+        <!-- <p>content available</p> -->
+        <h4>All Functions are Methods</h4><p id= "bobO"></p>
+        <p class= "function"></p><p>The this Keyword - see 'this' exercises in Function Invocation below </p>
+        <h4>The JavaScript call() (and apply?) Methods.</h4><p id="bobP"></p>
+        <h4>The call() Method with Arguments</h4><p id="bobQ"></p>
+    </call>
+    <apply>
+        <h3>w3 schools JavaScript Function Apply</h3>
+        <!-- <p>content available</p> -->
+        <p class= "function"></p><p>The Difference Between call() and apply() is: apply() method will take arguments as an array.</p>
+        <h4>The apply() Method with Arguments as as Array</h4><p id= "bobR"></p>
+        <h4>Simulate a Max Method on Arrays.</h4>
+        <p class= "function"></p><p id= "bobS">A one-liner to give the highest number in an array using (): </p>
+        <p class= "function"></p><p id= "bobT">This variation to use apply and []:</p>
+        <p class= "function"></p><p id= "bobU">This variation with Math.max and Math!</p>
+        <p class= "function"></p><p id= "bobV">And yet another: </p>
+        <p class= "function"></p><p id= "bobW">And one more for luck!: </p>
+        <h4>JavaScript Strict Mode - see Function Invocation</h4>
+    </apply>
+    <close>
+        <h3>w3 schools JavaScript Function Closures</h3>
+        <p class= "function"></p><p>JavaScript variables can belong to the local or global scope.</p>
+        <p class= "function"></p><p>Global variables can be made local (private) with closures.</p>
+        <h4>Global variables and local variables</h4>
+        <p id="boba1">Function accessing inside or local variable...<button type= "button" onclick= "oneFunc()">Click ME!</button>...0</p> 
+        <p id="boba2">Function accessing outside or global variable...<button type= "button" onclick="twoFunc()">Click ME!</button>...0</p>
+        <p class= "function"></p><p>Variables created without a declaration keyword (var, let, or const) are always global, even if they are created inside a function.</p>
+        <h4>Variable Lifetime</h4>
+        <p class= "function"></p><p>Local variables are created when the function is invoked, and deleted when the function is finished.Global variables live until the page is discarded</p>
+        <h4>A Counter Dilemma</h4>
+        <p class= "function"></p><p id= "bob3">1 Counting with a global variable</p>
+        <p class= "function"></p><p id= "bob4">2 Counting with a global and local variable</p>
+        <p class= "function"></p><p id= "bob5">3 Counting with a local variable and function return...<button type= "button" onclick="threeFunc()">Click ME!</button>...0...</p>
+        <h4>JavaScript Nested Functions</h4>
+        <p class= "function"></p><p>In this example, the inner function plus4() has access to the counter4 variable in the parent function</p>
+        <p class= "function"></p><p id= "bob6">4 Counting with nested functions...</p>
+        <p class= "function"></p><p>We need to reach the plus4() function from the outside. We also need to find a way to execute counter4 = 0 only once.</p>
+        <h4>JavaScript Closures</h4>
+        <p class= "function"></p><p>5 Counting with closure and self invoking function...</p>
+        <button type= "button" onclick= "fourFunc()">Click and Count</button></p>
+        <p class= "function"></p><p id= "bob7">...0</p>
+</close>
+<footer>
+    <p>Created: March 2021________________Contact; roco.coding@gmail.com</p>
+</footer>
+</div>  
     <script src="jscriptA.js"></script>   
 </body>
 </html>

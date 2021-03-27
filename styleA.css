@@ -1,1 +1,54 @@
-/* Attempt to reproduce functions */
+/* Attempt to reproduce functions with grid style */
+body{
+    color: #690437;
+    font-family: Calibri;
+    text-align: center;
+    }
+#content{
+    display: grid;
+    /* #9 grid areas code */
+    grid-template-columns: repeat(4, 1fr); 
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+    "header header header header"
+    "defs defs params params"
+    "invok invok call call"
+    "apply apply close close"
+    "footer footer footer footer";
+    max-width: 1350px;
+    margin: 5px auto;
+    gap: 10px;
+    /* position: relative;*/ /*code to help p positions in #7 */
+    }
+    
+#content > *{ 
+    border-radius: 25px;
+    border: 2px solid #690437;
+    /*background: #f3d1d9;*/
+    padding: 15px;
+    }
+    
+header{
+    grid-area: header;
+}
+defs{
+    grid-area: defs;
+}
+params{
+    grid-area: params;
+}
+invok{
+    grid-area: invok;
+}
+call{
+    grid-area: call;
+}
+apply{
+    grid-area: apply;
+}
+close{
+    grid-area: close;
+}
+footer{
+    grid-area: footer;
+}

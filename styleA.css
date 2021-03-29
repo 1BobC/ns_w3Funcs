@@ -7,48 +7,65 @@ body{
 #content{
     display: grid;
     /* #9 grid areas code */
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(12, 1fr); 
     grid-auto-rows: minmax(100px, auto);
-    grid-template-areas:
-    "header header header header"
-    "defs defs params params"
-    "invok invok call call"
-    "apply apply close close"
-    "footer footer footer footer";
-    max-width: 1350px;
+    
+    max-width: 100%;
     margin: 5px auto;
     gap: 10px;
-    /* position: relative;*/ /*code to help p positions in #7 */
+    position: relative;     /*code to help p positions in toggle grid */
     }
     
 #content > *{ 
     border-radius: 25px;
     border: 2px solid #690437;
-    /*background: #f3d1d9;*/
+    /* background: #f5dfe4; */
     padding: 15px;
     }
-    
+
 header{
-    grid-area: header;
+    grid-column: 1/13;
 }
 defs{
-    grid-area: defs;
+    grid-column: 1/7;
 }
 params{
-    grid-area: params;
+    grid-column: 7/13;
 }
 invok{
-    grid-area: invok;
+    grid-column: 1/7;
 }
 call{
-    grid-area: call;
+    grid-column: 7/13;
 }
 apply{
-    grid-area: apply;
+    grid-column: 1/7;
 }
 close{
-    grid-area: close;
+    grid-column: 7/13;
 }
 footer{
-    grid-area: footer;
+    grid-column: 1/13;
 }
+#grid{
+    display: grid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    padding: 0;
+    display: none;
+}
+#grid p{
+    border-style: solid;
+    background: lightgray;
+    margin: 0;
+    opacity: 0.3;
+}
+input:checked + #content #grid{
+    display: grid;
+}    

@@ -17,3 +17,5 @@ JS Function
 Must complete reorder in jscriptA to same order as w3 schools Functions!!
 Complete re-order in jscriptA and styling Only indexA close bob1 and bob 2 not working
 "Complete grid styling to indexA files and debug non unique ids in function closure exercises Next create responsive styling" 
+NB box sizing border box advice, maybe try it on web page view?
+"Complete toggle 12 grid view Adjust #grid p values for visilbility Responsive styling can now be coded (good luck!)"
